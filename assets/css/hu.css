@@ -1,0 +1,115 @@
+searchbody{
+	background-color: white;
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:'微软雅黑'; 
+	text-decoration: none;
+	color:#313133;
+	list-style: none;
+	font-size: 16px;
+}
+img{
+	display:block;
+}
+.clearfix{
+	clear:both;
+}
+
+.mytitle{
+	float: left;
+	font-size: 32px;
+	color: white;
+	line-height: 80px;
+	margin-left: 36px;
+	font-weight: 600;
+}
+
+/*搜索方式*/
+.mycheck-bg{
+	position: relative;
+	min-width: 1000px;
+}
+.mycheck{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 16px;
+}
+.mycheck-title{
+	
+}
+.mycheck-box{
+	width: 10px;
+	height: 36px;
+	background-color: #f6a42e;
+	float: left;
+	margin-right: 16px;
+}
+.mycheck-title p{
+	float: left;
+	font-size: 20px;
+	color: #313133;
+	line-height: 36px;
+}
+.mytype{
+	float: left;
+	margin-left: 30px;
+	margin-top: 16px;
+	margin-right: 32px;
+}
+.mytype-title{
+	font-size: 16px;
+	color: #56adff;
+	float: left;
+	height: 30px;
+	line-height: 0px;
+}
+.mytype-item{
+	float: left;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.mydate{
+	float: left;
+	margin-top: 16px;
+	margin-right: 32px;
+}
+.mydate-title{
+	font-size: 16px;
+	color: #56adff;
+	float: left;
+	height: 30px;
+	line-height: 0px;
+}
+.mydate-choose{
+	float: left;
+	height: 30px;
+	border: 1px solid #ccc;
+	padding-left: 12px;
+}
+input::-webkit-input-placeholder{
+	color: #ccc;
+}
+.querybtn{
+	float: left;
+	width: 80px;
+	height: 30px;
+	margin-top: 16px;
+	background-color: #6aa8cf;
+	line-height: 30px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.querybtn input{
+	height: 30px;
+	line-height: 30px;
+	width: 80px;
+	border: none;
+	background-color: transparent;
+	color: white;
+	-webkit-appearance: none;
+	appearance: none;
+}
